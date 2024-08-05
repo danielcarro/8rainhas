@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema das 8 Rainhas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Problema das 8 Rainhas</h1>
+    <div class="chess-container">
+        <div id="board" class="chess-board"></div>
+        <div id="pieces" class="pieces">
+            <!-- Rainhas serão geradas aqui -->
+        </div>
+        <div class="buttons">
+            <button id="resetButton"><i class="fas fa-redo"></i> Reset</button>
+            <button id="hintButton"><i class="fas fa-lightbulb"></i> Mostrar Dica</button>
+        </div>
+    </div>
+    <div id="message"></div>
+    <div id="score">Pontuação: 0</div>
+    <div id="rules">
+        <h2>Regras do Jogo</h2>
+        <p>O objetivo do jogo é posicionar 8 rainhas em um tabuleiro de xadrez 8x8 de forma que nenhuma rainha possa atacar outra.</p>
+        <p>Uma rainha pode se mover horizontalmente, verticalmente e diagonalmente. Portanto, você deve garantir que nenhuma rainha esteja na mesma linha, coluna ou diagonal que outra.</p>
+        <p>Para jogar:</p>
+        <ul>
+            <li>Arraste uma rainha da borda e solte-a em uma casa do tabuleiro.</li>
+            <li>Se a casa estiver em perigo, ela ficará vermelha por um breve momento.</li>
+            <li>Use o botão "Mostrar Dica" para revelar as casas corretas, mas lembre-se: você só tem 5 dicas disponíveis.</li>
+            <li>Quando todas as 8 rainhas estiverem posicionadas corretamente, você ganhará o jogo e a pontuação final será exibida.</li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
