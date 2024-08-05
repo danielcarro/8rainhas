@@ -26,4 +26,4 @@ O **Jogo das 8 Rainhas** é uma implementação interativa do famoso problema de
 1. **Clone o Repositório**:
 
    ```bash
-   git clone https://github.com/SEU_USUARIO/REPOSITORIO.git
+   git clone https://github.com/danielcarro/8rainhas.git
